@@ -29,7 +29,7 @@ module  clk_div(clk_out,clk_led,clk_in);
        tick_cnt <= 27'b0;
     end
     
-    else tick_cnt <= tick_cnt + 25'b1;
+    else tick_cnt <= tick_cnt + 27'b1;
  
  end
 
